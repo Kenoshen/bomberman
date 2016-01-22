@@ -9,16 +9,23 @@
     <sprite>sprites\red</sprite>
     <sprite>sprites\blue</sprite>
     <sprite>sprites\green</sprite>
+    <sprite>sprites\spr_white_bomberman</sprite>
+    <sprite>sprites\spr_squishy_ball</sprite>
+    <sprite>sprites\spr_angry_red_thing</sprite>
+    <sprite>sprites\spr_blue_smiley</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\crate</object>
     <object>objects\rock</object>
-    <object>objects\player</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_solid</object>
+    <object>objects\obj_bomb</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test_level</room>
+    <room>rooms\empty_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
