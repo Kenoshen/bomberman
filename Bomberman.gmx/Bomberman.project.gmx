@@ -13,15 +13,20 @@
     <sprite>sprites\spr_squishy_ball</sprite>
     <sprite>sprites\spr_angry_red_thing</sprite>
     <sprite>sprites\spr_blue_smiley</sprite>
+    <sprite>sprites\spr_blue_goo</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\src_destroy_on_fire_contact.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\crate</object>
-    <object>objects\rock</object>
+    <object>objects\obj_crate</object>
+    <object>objects\obj_rock</object>
     <object>objects\obj_player</object>
     <object>objects\obj_solid</object>
     <object>objects\obj_bomb</object>
+    <object>objects\obj_fire</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test_level</room>
